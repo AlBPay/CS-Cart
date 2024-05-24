@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<addon scheme="3.0" edition_type="ROOT,ULT:VENDOR">
+    <id>Alliance bank</id>
+    <name>Alliance bank</name>
+    <copyright>example.com</copyright>
+    <authorEmail>example@example.com</authorEmail>
+    <version>1.0.2</version>
+    <description>www.example.com (VISA, MasterCard, и др.)</description>
+    <priority>1</priority>
+    <status>active</status>
+    <dependencies></dependencies>
+    <functions>
+        <item for="install">fn_fondy_install</item>
+        <item for="uninstall">fn_fondy_uninstall</item>
+    </functions>
+</addon>
